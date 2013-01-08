@@ -3,15 +3,19 @@ package gui.language;
 final class English extends LanguageSpecification {
 
   public String regneark() {
-    return "Regneark";
+    return Language.MenuBar.SPREADSHEET;
   }
 
   public String file() {
-    return "File";
+    return Language.MenuBar.FILE;
   }
 
   public String exit() {
-    return "Exit";
+    return Language.MenuBar.EXIT;
+  }
+
+  public String newspreadsheet() {
+	return Language.MenuBar.NEW_SPREADSHEET;
   }
 
 }

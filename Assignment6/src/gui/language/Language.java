@@ -12,6 +12,7 @@ public final class Language {
   public final class MenuBar {
     public static final String FILE = "File";
     public static final String EXIT = "Exit";
+    public static final String SPREADSHEET = "Spreadsheet";
     public static final String NEW_SPREADSHEET = "New spreadsheet";
 
     public static final String EDIT = "Edit";

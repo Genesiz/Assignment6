@@ -20,9 +20,12 @@ public final class MainFrame
 
   private MainFrame() {
     super(Language.instance.regneark());
+
     this.setJMenuBar(MenuBar.instance);
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setContentPane(new MainPanel());
+    this.setExtendedState(this.MAXIMIZED_BOTH);  
+
   }
 
   private class MainPanel
