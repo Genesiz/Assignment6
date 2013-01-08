@@ -17,5 +17,10 @@ public final class SpreadsheetsView
 	  SpreadsheetView pane = new SpreadsheetView(sheet0);
 	  this.addTab(sheet0.getName(), pane);
   }
+  
+  public void addNewSpreadsheet(Spreadsheet sheet) {
+	  SpreadsheetView pane = new SpreadsheetView(sheet);
+	  this.addTab(sheet.getName(), pane);
+  }
 
 }
